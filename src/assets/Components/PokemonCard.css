@@ -1,0 +1,51 @@
+/* Couleurs de fond des cartes selon le type principal */
+.pokemon-card.normal { background-color: #f5f5f5; border: 2px solid #a8a878; }
+.pokemon-card.fire { background-color: #ffe5e5; border: 2px solid #f08030; }
+.pokemon-card.water { background-color: #e0f7ff; border: 2px solid #6890f0; }
+.pokemon-card.grass { background-color: #e0ffe0; border: 2px solid #78c850; }
+.pokemon-card.electric { background-color: #fff8cc; border: 2px solid #f8d030; }
+.pokemon-card.ice { background-color: #e6f7ff; border: 2px solid #98d8d8; }
+.pokemon-card.fighting { background-color: #ffe6e0; border: 2px solid #c03028; }
+.pokemon-card.poison { background-color: #fce6ff; border: 2px solid #a040a0; }
+.pokemon-card.ground { background-color: #fff0cc; border: 2px solid #e0c068; }
+.pokemon-card.flying { background-color: #f0f8ff; border: 2px solid #a890f0; }
+.pokemon-card.psychic { background-color: #ffe0f7; border: 2px solid #f85888; }
+.pokemon-card.bug { background-color: #f5ffe0; border: 2px solid #a8b820; }
+.pokemon-card.rock { background-color: #f9f3e0; border: 2px solid #b8a038; }
+.pokemon-card.ghost { background-color: #f3e6ff; border: 2px solid #705898; }
+.pokemon-card.dragon { background-color: #e6e6ff; border: 2px solid #7038f8; }
+.pokemon-card.dark { background-color: #dcdcdc; border: 2px solid #705848; }
+.pokemon-card.steel { background-color: #e6e6e6; border: 2px solid #b8b8d0; }
+.pokemon-card.fairy { background-color: #ffe6f7; border: 2px solid #ee99ac; }
+
+/* Couleurs des badges */
+.type-badge {
+  padding: 5px 8px;
+  color: white;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+}
+
+.type-badge.normal { background-color: #a8a878; }
+.type-badge.fire { background-color: #f08030; }
+.type-badge.water { background-color: #6890f0; }
+.type-badge.grass { background-color: #78c850; }
+.type-badge.electric { background-color: #f8d030; }
+.type-badge.ice { background-color: #98d8d8; }
+.type-badge.fighting { background-color: #c03028; }
+.type-badge.poison { background-color: #a040a0; }
+.type-badge.ground { background-color: #e0c068; }
+.type-badge.flying { background-color: #a890f0; }
+.type-badge.psychic { background-color: #f85888; }
+.type-badge.bug { background-color: #a8b820; }
+.type-badge.rock { background-color: #b8a038; }
+.type-badge.ghost { background-color: #705898; }
+.type-badge.dragon { background-color: #7038f8; }
+.type-badge.dark { background-color: #705848; }
+.type-badge.steel { background-color: #b8b8d0; }
+.type-badge.fairy { background-color: #ee99ac; }
+
+.w-100.btn.btn-dark {
+    margin-top: 10px;
+}

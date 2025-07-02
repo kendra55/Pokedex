@@ -1,0 +1,97 @@
+/* HomePage.css */
+
+body {
+background-image: url('public/BQYb4Cl.jpg');
+ background-position: center;
+background-size: contain;
+}
+/* Titre principal */
+
+.mb-4 {
+    margin-bottom: 2rem; /* Pour un espace supplémentaire entre les cartes */
+}
+
+/* Grille de cartes */
+.pokemon-grid {
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Carte Pokémon */
+.pokemon-card {
+    color: black;;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+width: 200px;
+  margin: 10px; /* au
+   cas où */
+   padding-bottom: 10px;
+  
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(3, 0, 204, 0.2);
+}
+
+/* Bouton de la carte */
+.pokemon-card .btn-danger {
+  background-color: #000000;
+  border: none;
+  padding: 5px 12px;
+}
+
+.pokemon-card .btn-danger:hover {
+  background-color: #1b02db;
+}
+
+/* Pagination */
+.pagination-controls {
+  margin-bottom: 20px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-controls button {
+  margin: 0 5px;
+}
+
+/* Message d’erreur ou pas de résultats */
+.empty-message {
+  font-size: 1.2rem;
+  color: #888;
+  margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  form input[type="text"] {
+    width: 100%;
+  }
+
+  .pokemon-card {
+    width: 100% !important;
+  }
+}
+
+input.form-control {
+  color: black !important;
+}
+
+
+
+.mb-4.col-10.col-md-6.text-dark {
+  background-color: #f0f0f0;
+  width: 500px;
+  height: 25px;
+  border-radius: 10PX;
+  margin-top: 30px;
+}
