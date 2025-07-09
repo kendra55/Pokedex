@@ -8,6 +8,10 @@ import PokemonCard from './assets/Components/PokemonCard';
 import RegisterPage from './Pages/RegisterPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LoginPage from './Pages/LoginPage';
+import ProfilePage from './Pages/ProfilPage';
+import BattlePage from './Pages/BattlePage';
+import ChoosePokemon from './Pages/ChoosePokemon'; // chemin correct vers ton composant
+
 
 
 function App() {
@@ -26,7 +30,10 @@ function App() {
         <Route path="/pokemon/:name" element={<PokemonDetail />} />
         <Route path="/register" element={<RegisterPage/>} />
         <Route path="/login" element={<LoginPage/>} />
-      
+        <Route path="/profile" element={<ProfilePage/>} />
+       <Route path="/Choosepokemon" element={<ChoosePokemon/>} />
+      <Route path="/battle" element={<BattlePage />} />
+
         </Routes>
       </BrowserRouter>
 
